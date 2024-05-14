@@ -1,0 +1,20 @@
+#Proposed Solution for dividing reading text file with multiple threads.
+
+
+#Output should be: 
+Enter the filename: text.txt
+Enter number of threads: 4
+Number of lines: 24
+Thread 1 works from the line 1 to 6
+Thread 2 works from the line 7 to 12
+Thread 3 works from the line 13 to 18
+Thread 4 works from the line 19 to 24
+The main thread is waiting the number of words from thread 1
+Thread 1 has 369 words
+The main thread is waiting the number of words from thread 2
+Thread 2 has 88 words
+The main thread is waiting the number of words from thread 3
+Thread 3 has 93 words
+The main thread is waiting the number of words from thread 4
+Thread 4 has 239 words
+Total words in file text.txt is 789, working with 4
